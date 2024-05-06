@@ -14,15 +14,19 @@ const Navbar = () => {
   
   <div  className="z-50  w-screen h-[80px] bg-opacity-55 backdrop-filter backdrop-blur-2xl  fixed flex justify-around">
     <div className=" w-[120px] h-[80px] center "><img src="images/infinite.png" alt="" /></div>
-    <div className="text-2xl p-5 flex font-mono text-green-600  font-semibold gap-[40px] ">
-  <motion.div className="text-green-700 font-bold cursor-pointer duration-500   hover:text-green-800"  initial={{ opacity: 0, x: -600 }}
+    <div className="text-xl p-5 flex font-mono text-green-600  font-semibold gap-[40px] ">
+  <motion.div className="text-green-700 font-bold cursor-pointer duration-500 text-2xl   hover:text-green-800"  initial={{ opacity: 0, x: -600 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 1 }} >Home</motion.div>
+
+<motion.div className="cursor-pointer   hover:text-green-700 duration-500"  initial={{ opacity: 0, y: -200 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1 }}>Services</motion.div>
       
       <motion.div className="cursor-pointer   hover:text-green-700 duration-500"  initial={{ opacity: 0, y: -200 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1 }}>About</motion.div>
-      <motion.div className="cursor-pointer hover:text-green-700 duration-500 border-2 border-r-green-400 border-t-green-400 border-l-black px-2 hover:border-transparent  border-b-black"  initial={{ opacity: 0, y: -200 }}
+      <motion.div className="cursor-pointer hover:text-green-700 duration-500 border-2 border-r-green-400 border-t-green-400 border-l-black px-2 hover:border-l-green-400 hover:border-b-green-400 hover:border-r-black hover:border-t-black  border-b-black"  initial={{ opacity: 0, y: -200 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1 }}>Projects</motion.div>
       <motion.div className="cursor-pointer  hover:text-green-700 duration-500"  initial={{ opacity: 0, y: -200 }}

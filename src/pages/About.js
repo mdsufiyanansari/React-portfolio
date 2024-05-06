@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
     
-    <div className="h-screen bg-gray-950 "></div>
+    <div className="h-screen bg-red-200 "></div>
     
     </>
   )
