@@ -4,6 +4,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { delay, motion } from "framer-motion"
 
+
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -13,12 +15,15 @@ import 'swiper/css/scrollbar';
 const Service = () => {
   return (
     <>
-
+    <h1 className=" bg-black text-gray-400 text-xl  px-40 py-4"><span className='text-5xl text-green-600 font-extrabold font-mono tracking-[3px]'>What we do</span> <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum vel repellat officiis modi facere tempore <br /> animi inventore obcaecati vitae.</h1>
+    
     <div className="h-[700px] bg-black  center  relative">
+
 <motion.div className="absolute w-[80%] h-[70%] border-2 border-green-600 rounded-xl shadow-2xl shadow-green-500"
 initial={{ opacity: 0, y: -100 }}
 animate={{ opacity: 1, y: 0 }}
-transition={{ duration: 1, delay: 1 }}></motion.div>
+
+transition={{ duration: 1,  delay: 1 }}></motion.div>
 
     
     <Swiper
@@ -29,7 +34,7 @@ transition={{ duration: 1, delay: 1 }}></motion.div>
       navigation
       loop={true}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
       autoplay={{ delay: 3000 }} 
@@ -124,4 +129,4 @@ transition={{ duration: 1, delay: 1 }}></motion.div>
   )
 }
 
-export default Service
+export default Service

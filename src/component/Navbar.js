@@ -1,5 +1,6 @@
 import React from 'react'
 import { delay, motion } from "framer-motion"
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
@@ -21,7 +22,7 @@ const Navbar = () => {
 
 <motion.div className="cursor-pointer   hover:text-green-700 duration-500"  initial={{ opacity: 0, y: -200 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1 }}>Services</motion.div>
+              transition={{ duration: 1, delay: 1 }}> Services</motion.div>
       
       <motion.div className="cursor-pointer   hover:text-green-700 duration-500"  initial={{ opacity: 0, y: -200 }}
               animate={{ opacity: 1, y: 0 }}

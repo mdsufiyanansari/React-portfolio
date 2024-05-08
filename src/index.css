@@ -38,3 +38,18 @@ svg text {
 }
 
 .wrapper {background-color: #FFFFFF};
+
+
+.scrollbar{
+	scroll-behavior: smooth;
+	padding-top: 100px;
+	
+	}
+	
+	html
+	{
+	  scroll-behavior: smooth;
+	}
+	.text{ 
+	  line-height: 50px;
+	}
