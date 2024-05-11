@@ -1,6 +1,6 @@
 import React from 'react'
 import { delay, motion } from "framer-motion"
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink} from 'react-router-hash-link';
 
 
 
@@ -16,13 +16,13 @@ const Navbar = () => {
   <div  className="z-50  w-screen h-[80px] bg-opacity-55 backdrop-filter backdrop-blur-2xl  fixed flex justify-around">
     <div className=" w-[120px] h-[80px] center "><img src="images/infinite.png" alt="" /></div>
     <div className="text-xl p-5 flex font-mono text-green-600  font-semibold gap-[40px] ">
-  <motion.div className="text-green-700 font-bold cursor-pointer duration-500 text-2xl   hover:text-green-800"  initial={{ opacity: 0, x: -600 }}
+<motion.div className="text-green-700 font-bold cursor-pointer duration-500 text-2xl   hover:text-green-800"  initial={{ opacity: 0, x: -600 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 1 }} >Home</motion.div>
 
 <motion.div className="cursor-pointer   hover:text-green-700 duration-500"  initial={{ opacity: 0, y: -200 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1 }}> Services</motion.div>
+              transition={{ duration: 1, delay: 1 }}> <HashLink smooth to ='/#service'>Service</HashLink></motion.div>
       
       <motion.div className="cursor-pointer   hover:text-green-700 duration-500"  initial={{ opacity: 0, y: -200 }}
               animate={{ opacity: 1, y: 0 }}

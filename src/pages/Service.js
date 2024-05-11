@@ -15,6 +15,7 @@ import 'swiper/css/scrollbar';
 const Service = () => {
   return (
     <>
+    <div id="service">
     <h1 className=" bg-black text-gray-400 text-xl  px-40 py-4"><span className='text-5xl text-green-600 font-extrabold font-mono tracking-[3px]'>What we do</span> <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum vel repellat officiis modi facere tempore <br /> animi inventore obcaecati vitae.</h1>
     
     <div className="h-[700px] bg-black  center  relative">
@@ -23,7 +24,7 @@ const Service = () => {
 initial={{ opacity: 0, y: -100 }}
 animate={{ opacity: 1, y: 0 }}
 
-transition={{ duration: 1,  delay: 1 }}></motion.div>
+transition={{ duration: 1,  delay: 1,type:"sprig"}}></motion.div>
 
     
     <Swiper
@@ -123,7 +124,7 @@ transition={{ duration: 1,  delay: 1 }}></motion.div>
   
     </div>
     
-    
+    </div>
     
     </>
   )

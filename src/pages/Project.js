@@ -50,11 +50,12 @@ function Project() {
         modules={[Autoplay, Pagination, Navigation]}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper "
+      
   
       >
 
         {/* /--------------------------------CARD-1---------------------------------- */}
-        <SwiperSlide><div className="h-[500px] ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
+        <SwiperSlide><div className="h-[500px] cursor-pointer ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
             <div className="bg-gradient-to-tl from-green-600  to-black rounded-br-full h-[40%] w-full "> <img src="images/card img2.png" alt="" className='h-[100%]' /></div>
             <h1 className='text-3xl text-green-600 font-mono font-extrabold tracking-[5px] text-center'>C<span className='text-white'>a</span>l<span className='text-white'>c</span>u<span className='text-white'>l</span>a<span className="text-white">t</span>o<span className="text-white">r</span></h1>
             <p className='text-gray-400 px-4 font-mono mt-4'><span className='text-xl text-white'>Discription: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime nihil similique, sit totam reprehenderit earum aliquam magnam error harum.</p>
@@ -78,7 +79,7 @@ function Project() {
         
         {/* ----------------------------------------------CARD-2(counter-app)----------------------------------------- */}
         <SwiperSlide>
-        <div className="h-[500px] ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
+        <div className="h-[500px] cursor-pointer ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
             <div className="bg-gradient-to-tl from-green-600  to-black rounded-br-full h-[40%] w-full "> <img src="images/card img9.png" alt="" className='h-[100%]' /></div>
             <h1 className='text-3xl text-green-600 font-mono font-extrabold tracking-[5px] text-center'>C<span className='text-white'>o</span>u<span className='text-white'>n</span>t<span className='text-white'>e</span>r</h1>
             <p className='text-gray-400 px-4 font-mono mt-4'><span className='text-xl text-white'>Discription: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime nihil similique, sit totam reprehenderit earum aliquam magnam error harum.</p>
@@ -103,7 +104,7 @@ function Project() {
        
        {/* ------------------------------------CARD-3(watch)--------------------------------------- */}
         <SwiperSlide>
-        <div className="h-[500px] ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
+        <div className="h-[500px] cursor-pointer ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
             <div className="bg-gradient-to-tl from-green-600  to-black rounded-br-full h-[40%] w-full "> <img src="images/card img5.png" alt="" className='h-[100%]' /></div>
             <h1 className='text-3xl text-green-600 font-mono font-extrabold tracking-[5px] text-center'>W<span className='text-white'>a</span>t<span className='text-white'>c</span>h</h1>
             <p className='text-gray-400 px-4 font-mono mt-4'><span className='text-xl text-white'>Discription: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime nihil similique, sit totam reprehenderit earum aliquam magnam error harum.</p>
@@ -128,7 +129,7 @@ function Project() {
         
         {/* ---------------------------------------------CARD-4(temperature app)--------------------------------------- */}
         <SwiperSlide>
-        <div className="h-[500px] ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
+        <div className="h-[500px] cursor-pointer ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
             <div className="bg-gradient-to-tl from-green-600  to-black rounded-br-full h-[40%] w-full "> <img src="images/card img6.png" alt="" className='h-[100%]' /></div>
             <h1 className='text-3xl text-green-600 font-mono font-extrabold tracking-[5px] text-center'>T<span className='text-white'>e</span>m<span className='text-white'>p-</span>C<span className='text-white'>o</span>n<span className="text-white">v</span>e<span className="text-white">r</span>t<span className="text-white">e</span>r</h1>
             <p className='text-gray-400 px-4 font-mono mt-4'><span className='text-xl text-white'>Discription: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime nihil similique, sit totam reprehenderit earum aliquam magnam error harum.</p>
@@ -153,7 +154,7 @@ function Project() {
         
         {/* -----------------------------------------------CARD-5(filter card)---------------------------------- */}
         <SwiperSlide>
-        <div className="h-[500px] ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
+        <div className="h-[500px] cursor-pointer ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
             <div className="bg-gradient-to-tl from-green-600  to-black rounded-br-full h-[40%] w-full "> <img src="images/card img10.png" alt="" className='h-[100%]' /></div>
             <h1 className='text-3xl text-green-600 font-mono font-extrabold tracking-[5px] text-center'>F<span className='text-white'>i</span>l<span className='text-white'>t</span>e<span className='text-white'>r</span>-c<span className="text-white">a</span>r<span className="text-white">d</span></h1>
             <p className='text-gray-400 px-4 font-mono mt-4'><span className='text-xl text-white'>Discription: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime nihil similique, sit totam reprehenderit earum aliquam magnam error harum.</p>
@@ -178,7 +179,7 @@ function Project() {
         
         {/* /-----------------------------------------------CARD-6(weight converter)---------------------------------------- */}
         <SwiperSlide>
-        <div className="h-[500px] ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
+        <div className="h-[500px] cursor-pointer ml-[39%] w-[400px] rounded-b-md mb-8 bg-transparent shadow-md shadow-green-300">
             <div className="bg-gradient-to-tl from-green-600  to-black rounded-br-full h-[40%] w-full "> <img src="images/card img8.png" alt="" className='h-[100%] ' /></div>
             <h1 className='text-3xl text-green-600 font-mono font-extrabold tracking-[5px] text-center'>W<span className='text-white'>e</span>i<span className='text-white'>g</span>h<span className='text-white'>t-</span>c<span className="text-white">o</span>n<span className="text-white">v</span>e<span className="text-white">r</span>t<span className="text-white">e</span>r</h1>
             <p className='text-gray-400 px-4 font-mono mt-4'><span className='text-xl text-white'>Discription: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime nihil similique, sit totam reprehenderit earum aliquam magnam error harum.</p>
